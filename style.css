@@ -305,3 +305,32 @@ h2 {
     display: none;
   }
 }
+
+@keyframes slideDown {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-greeting {
+  animation: slideDown 2s ease-in-out;
+}
+
+.animate-from-bottom {
+  animation: slideUp 2.5s ease-in-out;
+}
