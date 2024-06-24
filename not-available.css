@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background-color: #000 !important;
+  height: 100vh;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #333333;
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.profile_icon {
+  width: 24px;
+  height: 24px;
+  filter: invert();
+  margin-right: 5px;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.google-text {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-left: 3px;
+}
+
+.nav-head-text {
+  background: linear-gradient(90deg, rgb(250, 68, 68), #1a73e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.not_Main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  height: 95vh;
+}
+
+.not-available-img {
+  width: 290px;
+}
+
+.top-head {
+  font-size: 22px;
+  font-weight: 450;
+  letter-spacing: 1px;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.not-text {
+  font-size: 28px;
+  /* color: rgb(243, 102, 102); */
+  background: linear-gradient(90deg, rgb(250, 68, 68), #1a73e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+  font-weight: 600;
+}
+
+.bottom-head {
+  font-size: 16px;
+  font-weight: 450;
+  opacity: 0.9;
+  letter-spacing: 1px;
+  text-align: center;
+}
+
+.update-text {
+  font-size: 24px;
+  /* color: rgb(243, 102, 102); */
+  background: linear-gradient(90deg, rgb(250, 68, 68), #1a73e8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 550;
+}
+
+.back-option-link {
+  font-size: 12px;
+  color: #1967d2;
+  text-decoration: none;
+  letter-spacing: 1px;
+}
+
+.back-option-link:hover {
+  text-decoration: underline;
+}
+
+.back-option-text {
+  font-size: 12px;
+  color: #777777;
+  letter-spacing: 1px;
+  position: absolute;
+  bottom: 20px;
+}
