@@ -322,6 +322,10 @@ h2 {
     transform: translateY(100%);
     opacity: 0;
   }
+  40% {
+    transform: translateY(100);
+    opacity: 0;
+  }
   100% {
     transform: translateY(0);
   }
@@ -332,5 +336,5 @@ h2 {
 }
 
 .animate-from-bottom {
-  animation: slideUp 2.5s ease-in-out;
+  animation: slideUp 2s ease-in-out;
 }
