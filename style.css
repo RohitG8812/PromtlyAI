@@ -51,7 +51,7 @@ body {
 }
 
 .main {
-  height: calc(100vh - 11.2rem);
+  height: calc(100vh - 12.2rem);
   overflow: auto;
   width: 100%;
   display: flex;
@@ -61,17 +61,15 @@ body {
   margin-inline: 5px;
   margin-bottom: 30px;
   @media (max-width: 600px) {
-    height: calc(100vh - 12.2rem);
+    height: calc(100vh - 14rem);
   }
 }
 
 .main_Content_Box {
   width: 623.6px;
-  height: 100%;
   display: flex;
   gap: 8px;
   flex-direction: column;
-  position: relative;
 }
 
 ul {
@@ -185,7 +183,7 @@ h2 {
 
 .bottom {
   position: absolute;
-  bottom: 0px;
+  bottom: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
