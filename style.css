@@ -67,18 +67,14 @@ body {
 
 .main_Content_Box {
   width: 623.6px;
-  /* height: 100%; */
   display: flex;
   gap: 8px;
   flex-direction: column;
-  /* border: 1px solid red; */
 }
 
 ul {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
-
 }
 
 .greet {
@@ -120,6 +116,7 @@ ul {
 .request {
   border-radius:5px 5px 5px 18px;
   font-size: 15px;
+  margin-right: 2px;
   color: #e0e0e0;
   padding-inline: 20px;
   padding-block: 10px;
