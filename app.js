@@ -37,7 +37,7 @@ async function getResponse(newLi) {
   let inputBox = document.querySelector("input");
   let value = inputBox.value;
   const APIkey = new GoogleGenerativeAI(
-    "AIzaSyBeqLZDNaimhmtgjFrkVv8sQXzRSuAwr_0"
+    "AIzaSyAbnkoRrf07wGUjaM5xQvVmz36JESvZ13Y"
   );
   const model = APIkey.getGenerativeModel({
     model: "gemini-1.5-pro",
