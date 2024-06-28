@@ -5,9 +5,14 @@
   font-family: "Outfit", sans-serif;
 }
 
+html {
+  height: -webkit-fill-available;
+}
+
 body {
   background-color: #000 !important;
   height: 100vh;
+  height: -webkit-fill-available;
   padding: 0px;
   display: flex;
   flex-direction: column;
